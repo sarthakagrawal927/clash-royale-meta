@@ -1,0 +1,1233 @@
+{
+  "date": "2026-04-06",
+  "collected_at": "2026-04-06T09:56:46.954Z",
+  "total_battles": 13173,
+  "source": "Live Analysis from Top Players",
+  "cached_at": "2026-04-06 08:40:45 UTC",
+  "cards": [
+    {
+      "name": "Fireball",
+      "usage_rate": 34.809,
+      "win_rate": 50.59,
+      "meta_score": 0.687,
+      "sample_size": 13387
+    },
+    {
+      "name": "Evo Royal Ghost",
+      "usage_rate": 33.856,
+      "win_rate": 50.43,
+      "meta_score": 0.676,
+      "sample_size": 9135
+    },
+    {
+      "name": "Skeletons",
+      "usage_rate": 33.793,
+      "win_rate": 50.35,
+      "meta_score": 0.674,
+      "sample_size": 9007
+    },
+    {
+      "name": "Hero Magic Archer",
+      "usage_rate": 32.997,
+      "win_rate": 51.3,
+      "meta_score": 0.684,
+      "sample_size": 7805
+    },
+    {
+      "name": "Electro Spirit",
+      "usage_rate": 32.836,
+      "win_rate": 50.24,
+      "meta_score": 0.663,
+      "sample_size": 7621
+    },
+    {
+      "name": "The Log",
+      "usage_rate": 32.414,
+      "win_rate": 50.51,
+      "meta_score": 0.664,
+      "sample_size": 7198
+    },
+    {
+      "name": "Barbarian Barrel",
+      "usage_rate": 29.946,
+      "win_rate": 51.22,
+      "meta_score": 0.656,
+      "sample_size": 5606
+    },
+    {
+      "name": "Hero Barbarian Barrel",
+      "usage_rate": 22.88,
+      "win_rate": 48.85,
+      "meta_score": 0.55,
+      "sample_size": 3528
+    },
+    {
+      "name": "Tornado",
+      "usage_rate": 20.802,
+      "win_rate": 50.53,
+      "meta_score": 0.563,
+      "sample_size": 3152
+    },
+    {
+      "name": "Hero Mega Minion",
+      "usage_rate": 20.445,
+      "win_rate": 50.83,
+      "meta_score": 0.566,
+      "sample_size": 3093
+    },
+    {
+      "name": "Evo Royal Hogs",
+      "usage_rate": 20.11,
+      "win_rate": 51.19,
+      "meta_score": 0.569,
+      "sample_size": 3039
+    },
+    {
+      "name": "Goblin Hut",
+      "usage_rate": 20.079,
+      "win_rate": 50.44,
+      "meta_score": 0.555,
+      "sample_size": 3034
+    },
+    {
+      "name": "Zap",
+      "usage_rate": 19.793,
+      "win_rate": 48.79,
+      "meta_score": 0.522,
+      "sample_size": 2989
+    },
+    {
+      "name": "Evo Zap",
+      "usage_rate": 18.85,
+      "win_rate": 51.97,
+      "meta_score": 0.573,
+      "sample_size": 2846
+    },
+    {
+      "name": "Hero Goblins",
+      "usage_rate": 18.624,
+      "win_rate": 50.49,
+      "meta_score": 0.543,
+      "sample_size": 2813
+    },
+    {
+      "name": "Arrows",
+      "usage_rate": 18.367,
+      "win_rate": 46.67,
+      "meta_score": 0.47,
+      "sample_size": 2776
+    },
+    {
+      "name": "Hero Knight",
+      "usage_rate": 18.262,
+      "win_rate": 50.34,
+      "meta_score": 0.538,
+      "sample_size": 2761
+    },
+    {
+      "name": "Berserker",
+      "usage_rate": 18.013,
+      "win_rate": 51.82,
+      "meta_score": 0.563,
+      "sample_size": 2726
+    },
+    {
+      "name": "Fisherman",
+      "usage_rate": 17.659,
+      "win_rate": 48.99,
+      "meta_score": 0.507,
+      "sample_size": 2677
+    },
+    {
+      "name": "Evo Royal Giant",
+      "usage_rate": 17.549,
+      "win_rate": 49.11,
+      "meta_score": 0.508,
+      "sample_size": 2662
+    },
+    {
+      "name": "Dark Prince",
+      "usage_rate": 16.467,
+      "win_rate": 51.79,
+      "meta_score": 0.549,
+      "sample_size": 2519
+    },
+    {
+      "name": "Evo Cannon",
+      "usage_rate": 16.286,
+      "win_rate": 50.9,
+      "meta_score": 0.531,
+      "sample_size": 2496
+    },
+    {
+      "name": "Fire Spirit",
+      "usage_rate": 16.096,
+      "win_rate": 50.11,
+      "meta_score": 0.514,
+      "sample_size": 2472
+    },
+    {
+      "name": "Ice Spirit",
+      "usage_rate": 15.977,
+      "win_rate": 49.87,
+      "meta_score": 0.509,
+      "sample_size": 2457
+    },
+    {
+      "name": "Giant Skeleton",
+      "usage_rate": 15.58,
+      "win_rate": 49.88,
+      "meta_score": 0.506,
+      "sample_size": 2408
+    },
+    {
+      "name": "Hunter",
+      "usage_rate": 15.556,
+      "win_rate": 49.02,
+      "meta_score": 0.489,
+      "sample_size": 2405
+    },
+    {
+      "name": "Hog Rider",
+      "usage_rate": 15.175,
+      "win_rate": 49.78,
+      "meta_score": 0.5,
+      "sample_size": 2359
+    },
+    {
+      "name": "Balloon",
+      "usage_rate": 14.314,
+      "win_rate": 50.43,
+      "meta_score": 0.505,
+      "sample_size": 2258
+    },
+    {
+      "name": "Miner",
+      "usage_rate": 13.031,
+      "win_rate": 50.58,
+      "meta_score": 0.496,
+      "sample_size": 2115
+    },
+    {
+      "name": "Evo Battle Ram",
+      "usage_rate": 12.789,
+      "win_rate": 51.52,
+      "meta_score": 0.512,
+      "sample_size": 2089
+    },
+    {
+      "name": "Spirit Empress",
+      "usage_rate": 12.516,
+      "win_rate": 50.14,
+      "meta_score": 0.483,
+      "sample_size": 2060
+    },
+    {
+      "name": "Evo Valkyrie",
+      "usage_rate": 12.195,
+      "win_rate": 49.76,
+      "meta_score": 0.474,
+      "sample_size": 2008
+    },
+    {
+      "name": "Evo Tesla",
+      "usage_rate": 11.405,
+      "win_rate": 51.34,
+      "meta_score": 0.496,
+      "sample_size": 1878
+    },
+    {
+      "name": "Minions",
+      "usage_rate": 11.247,
+      "win_rate": 50.26,
+      "meta_score": 0.475,
+      "sample_size": 1852
+    },
+    {
+      "name": "Bomber",
+      "usage_rate": 11.187,
+      "win_rate": 51.82,
+      "meta_score": 0.503,
+      "sample_size": 1842
+    },
+    {
+      "name": "Evo Wall Breakers",
+      "usage_rate": 11.126,
+      "win_rate": 47.78,
+      "meta_score": 0.428,
+      "sample_size": 1832
+    },
+    {
+      "name": "Cannon",
+      "usage_rate": 10.907,
+      "win_rate": 49.22,
+      "meta_score": 0.452,
+      "sample_size": 1796
+    },
+    {
+      "name": "Evo Skeletons",
+      "usage_rate": 10.834,
+      "win_rate": 51.77,
+      "meta_score": 0.499,
+      "sample_size": 1784
+    },
+    {
+      "name": "Hero Giant",
+      "usage_rate": 10.409,
+      "win_rate": 49.39,
+      "meta_score": 0.451,
+      "sample_size": 1714
+    },
+    {
+      "name": "Suspicious Bush",
+      "usage_rate": 10.373,
+      "win_rate": 51.15,
+      "meta_score": 0.484,
+      "sample_size": 1708
+    },
+    {
+      "name": "Evo Skeleton Barrel",
+      "usage_rate": 10.355,
+      "win_rate": 52.2,
+      "meta_score": 0.503,
+      "sample_size": 1705
+    },
+    {
+      "name": "Lava Hound",
+      "usage_rate": 9.869,
+      "win_rate": 52.3,
+      "meta_score": 0.501,
+      "sample_size": 1625
+    },
+    {
+      "name": "Poison",
+      "usage_rate": 9.267,
+      "win_rate": 49.72,
+      "meta_score": 0.447,
+      "sample_size": 1526
+    },
+    {
+      "name": "Rage",
+      "usage_rate": 9.188,
+      "win_rate": 49.38,
+      "meta_score": 0.44,
+      "sample_size": 1513
+    },
+    {
+      "name": "Graveyard",
+      "usage_rate": 9.17,
+      "win_rate": 46.85,
+      "meta_score": 0.393,
+      "sample_size": 1510
+    },
+    {
+      "name": "Electro Wizard",
+      "usage_rate": 9.103,
+      "win_rate": 49.04,
+      "meta_score": 0.433,
+      "sample_size": 1499
+    },
+    {
+      "name": "Rascals",
+      "usage_rate": 8.952,
+      "win_rate": 51.95,
+      "meta_score": 0.486,
+      "sample_size": 1474
+    },
+    {
+      "name": "Evo Giant Snowball",
+      "usage_rate": 8.879,
+      "win_rate": 49.81,
+      "meta_score": 0.446,
+      "sample_size": 1462
+    },
+    {
+      "name": "Evo Mega Knight",
+      "usage_rate": 8.751,
+      "win_rate": 47.4,
+      "meta_score": 0.4,
+      "sample_size": 1441
+    },
+    {
+      "name": "Evo Baby Dragon",
+      "usage_rate": 8.733,
+      "win_rate": 51.31,
+      "meta_score": 0.472,
+      "sample_size": 1438
+    },
+    {
+      "name": "Lightning",
+      "usage_rate": 8.684,
+      "win_rate": 50.98,
+      "meta_score": 0.466,
+      "sample_size": 1430
+    },
+    {
+      "name": "X-Bow",
+      "usage_rate": 8.684,
+      "win_rate": 51.42,
+      "meta_score": 0.474,
+      "sample_size": 1430
+    },
+    {
+      "name": "Tombstone",
+      "usage_rate": 8.472,
+      "win_rate": 53.14,
+      "meta_score": 0.504,
+      "sample_size": 1395
+    },
+    {
+      "name": "Evo Inferno Dragon",
+      "usage_rate": 8.168,
+      "win_rate": 47.53,
+      "meta_score": 0.397,
+      "sample_size": 1345
+    },
+    {
+      "name": "Bowler",
+      "usage_rate": 7.992,
+      "win_rate": 49.04,
+      "meta_score": 0.424,
+      "sample_size": 1316
+    },
+    {
+      "name": "Evo Bats",
+      "usage_rate": 7.646,
+      "win_rate": 48.58,
+      "meta_score": 0.412,
+      "sample_size": 1259
+    },
+    {
+      "name": "Evo Archers",
+      "usage_rate": 7.385,
+      "win_rate": 51.09,
+      "meta_score": 0.456,
+      "sample_size": 1216
+    },
+    {
+      "name": "Bandit",
+      "usage_rate": 7.045,
+      "win_rate": 48.97,
+      "meta_score": 0.414,
+      "sample_size": 1160
+    },
+    {
+      "name": "Bomb Tower",
+      "usage_rate": 6.954,
+      "win_rate": 51.5,
+      "meta_score": 0.46,
+      "sample_size": 1145
+    },
+    {
+      "name": "Night Witch",
+      "usage_rate": 6.82,
+      "win_rate": 46.29,
+      "meta_score": 0.362,
+      "sample_size": 1123
+    },
+    {
+      "name": "Golem",
+      "usage_rate": 6.814,
+      "win_rate": 46.57,
+      "meta_score": 0.367,
+      "sample_size": 1122
+    },
+    {
+      "name": "Knight",
+      "usage_rate": 6.45,
+      "win_rate": 52.24,
+      "meta_score": 0.469,
+      "sample_size": 1062
+    },
+    {
+      "name": "Hero Ice Golem",
+      "usage_rate": 6.401,
+      "win_rate": 50.07,
+      "meta_score": 0.429,
+      "sample_size": 1054
+    },
+    {
+      "name": "Freeze",
+      "usage_rate": 6.322,
+      "win_rate": 48.35,
+      "meta_score": 0.396,
+      "sample_size": 1041
+    },
+    {
+      "name": "P.E.K.K.A",
+      "usage_rate": 6.055,
+      "win_rate": 49.19,
+      "meta_score": 0.409,
+      "sample_size": 997
+    },
+    {
+      "name": "Evo Goblin Drill",
+      "usage_rate": 6.024,
+      "win_rate": 54.45,
+      "meta_score": 0.507,
+      "sample_size": 992
+    },
+    {
+      "name": "Evo Furnace",
+      "usage_rate": 5.976,
+      "win_rate": 49,
+      "meta_score": 0.405,
+      "sample_size": 984
+    },
+    {
+      "name": "Guards",
+      "usage_rate": 5.909,
+      "win_rate": 46.29,
+      "meta_score": 0.354,
+      "sample_size": 973
+    },
+    {
+      "name": "Evo Executioner",
+      "usage_rate": 5.836,
+      "win_rate": 50.84,
+      "meta_score": 0.438,
+      "sample_size": 961
+    },
+    {
+      "name": "Rocket",
+      "usage_rate": 5.733,
+      "win_rate": 50.96,
+      "meta_score": 0.439,
+      "sample_size": 944
+    },
+    {
+      "name": "Prince",
+      "usage_rate": 5.569,
+      "win_rate": 51.18,
+      "meta_score": 0.442,
+      "sample_size": 917
+    },
+    {
+      "name": "Dart Goblin",
+      "usage_rate": 5.496,
+      "win_rate": 49.96,
+      "meta_score": 0.419,
+      "sample_size": 905
+    },
+    {
+      "name": "Evo Mortar",
+      "usage_rate": 5.241,
+      "win_rate": 50.93,
+      "meta_score": 0.435,
+      "sample_size": 863
+    },
+    {
+      "name": "Mother Witch",
+      "usage_rate": 4.804,
+      "win_rate": 51.28,
+      "meta_score": 0.437,
+      "sample_size": 791
+    },
+    {
+      "name": "Evo Lumberjack",
+      "usage_rate": 4.616,
+      "win_rate": 48.16,
+      "meta_score": 0.378,
+      "sample_size": 760
+    },
+    {
+      "name": "Ram Rider",
+      "usage_rate": 4.53,
+      "win_rate": 46.15,
+      "meta_score": 0.34,
+      "sample_size": 746
+    },
+    {
+      "name": "Hero Mini P.E.K.K.A",
+      "usage_rate": 4.415,
+      "win_rate": 48.31,
+      "meta_score": 0.379,
+      "sample_size": 727
+    },
+    {
+      "name": "Earthquake",
+      "usage_rate": 4.397,
+      "win_rate": 51.64,
+      "meta_score": 0.44,
+      "sample_size": 724
+    },
+    {
+      "name": "Golden Knight",
+      "usage_rate": 4.391,
+      "win_rate": 48.21,
+      "meta_score": 0.377,
+      "sample_size": 723
+    },
+    {
+      "name": "Mighty Miner",
+      "usage_rate": 4.354,
+      "win_rate": 51.42,
+      "meta_score": 0.436,
+      "sample_size": 717
+    },
+    {
+      "name": "Evo Musketeer",
+      "usage_rate": 4.354,
+      "win_rate": 47.51,
+      "meta_score": 0.363,
+      "sample_size": 717
+    },
+    {
+      "name": "Goblin Demolisher",
+      "usage_rate": 4.336,
+      "win_rate": 51.76,
+      "meta_score": 0.442,
+      "sample_size": 714
+    },
+    {
+      "name": "Evo Skeleton Army",
+      "usage_rate": 4.275,
+      "win_rate": 46.62,
+      "meta_score": 0.346,
+      "sample_size": 704
+    },
+    {
+      "name": "Vines",
+      "usage_rate": 4.257,
+      "win_rate": 49.95,
+      "meta_score": 0.408,
+      "sample_size": 701
+    },
+    {
+      "name": "Mini P.E.K.K.A",
+      "usage_rate": 4.251,
+      "win_rate": 47.2,
+      "meta_score": 0.357,
+      "sample_size": 700
+    },
+    {
+      "name": "Zappies",
+      "usage_rate": 4.245,
+      "win_rate": 50.15,
+      "meta_score": 0.411,
+      "sample_size": 699
+    },
+    {
+      "name": "Royal Delivery",
+      "usage_rate": 4.026,
+      "win_rate": 53.96,
+      "meta_score": 0.48,
+      "sample_size": 663
+    },
+    {
+      "name": "Sparky",
+      "usage_rate": 4.026,
+      "win_rate": 48.89,
+      "meta_score": 0.386,
+      "sample_size": 663
+    },
+    {
+      "name": "Giant Snowball",
+      "usage_rate": 3.929,
+      "win_rate": 53.19,
+      "meta_score": 0.465,
+      "sample_size": 647
+    },
+    {
+      "name": "Cannon Cart",
+      "usage_rate": 3.814,
+      "win_rate": 51.34,
+      "meta_score": 0.43,
+      "sample_size": 628
+    },
+    {
+      "name": "Evo Goblin Cage",
+      "usage_rate": 3.626,
+      "win_rate": 49.71,
+      "meta_score": 0.398,
+      "sample_size": 597
+    },
+    {
+      "name": "Evo Goblin Barrel",
+      "usage_rate": 3.352,
+      "win_rate": 46.96,
+      "meta_score": 0.344,
+      "sample_size": 552
+    },
+    {
+      "name": "Archer Queen",
+      "usage_rate": 3.267,
+      "win_rate": 50.13,
+      "meta_score": 0.402,
+      "sample_size": 538
+    },
+    {
+      "name": "Evo Knight",
+      "usage_rate": 3.2,
+      "win_rate": 49.54,
+      "meta_score": 0.391,
+      "sample_size": 527
+    },
+    {
+      "name": "Monk",
+      "usage_rate": 3.091,
+      "win_rate": 47.46,
+      "meta_score": 0.351,
+      "sample_size": 509
+    },
+    {
+      "name": "Skeleton King",
+      "usage_rate": 2.879,
+      "win_rate": 47.93,
+      "meta_score": 0.358,
+      "sample_size": 474
+    },
+    {
+      "name": "Furnace",
+      "usage_rate": 2.818,
+      "win_rate": 47.13,
+      "meta_score": 0.343,
+      "sample_size": 464
+    },
+    {
+      "name": "Evo Witch",
+      "usage_rate": 2.763,
+      "win_rate": 43.62,
+      "meta_score": 0.277,
+      "sample_size": 455
+    },
+    {
+      "name": "Elixir Golem",
+      "usage_rate": 2.721,
+      "win_rate": 48.28,
+      "meta_score": 0.363,
+      "sample_size": 448
+    },
+    {
+      "name": "Musketeer",
+      "usage_rate": 2.715,
+      "win_rate": 48.51,
+      "meta_score": 0.368,
+      "sample_size": 447
+    },
+    {
+      "name": "Elite Barbarians",
+      "usage_rate": 2.702,
+      "win_rate": 46.62,
+      "meta_score": 0.332,
+      "sample_size": 445
+    },
+    {
+      "name": "Minion Horde",
+      "usage_rate": 2.672,
+      "win_rate": 48.41,
+      "meta_score": 0.365,
+      "sample_size": 440
+    },
+    {
+      "name": "Heal Spirit",
+      "usage_rate": 2.63,
+      "win_rate": 42.48,
+      "meta_score": 0.255,
+      "sample_size": 433
+    },
+    {
+      "name": "Princess",
+      "usage_rate": 2.617,
+      "win_rate": 48.46,
+      "meta_score": 0.366,
+      "sample_size": 431
+    },
+    {
+      "name": "Evo Barbarians",
+      "usage_rate": 2.514,
+      "win_rate": 51.01,
+      "meta_score": 0.412,
+      "sample_size": 414
+    },
+    {
+      "name": "Goblin Gang",
+      "usage_rate": 2.508,
+      "win_rate": 49.24,
+      "meta_score": 0.379,
+      "sample_size": 413
+    },
+    {
+      "name": "Bats",
+      "usage_rate": 2.399,
+      "win_rate": 49.91,
+      "meta_score": 0.391,
+      "sample_size": 395
+    },
+    {
+      "name": "Goblins",
+      "usage_rate": 2.393,
+      "win_rate": 47.51,
+      "meta_score": 0.346,
+      "sample_size": 394
+    },
+    {
+      "name": "Valkyrie",
+      "usage_rate": 2.387,
+      "win_rate": 43.5,
+      "meta_score": 0.272,
+      "sample_size": 393
+    },
+    {
+      "name": "Evo Firecracker",
+      "usage_rate": 2.332,
+      "win_rate": 44.35,
+      "meta_score": 0.287,
+      "sample_size": 384
+    },
+    {
+      "name": "Evo Electro Dragon",
+      "usage_rate": 2.198,
+      "win_rate": 48.26,
+      "meta_score": 0.358,
+      "sample_size": 362
+    },
+    {
+      "name": "Battle Healer",
+      "usage_rate": 2.083,
+      "win_rate": 49.08,
+      "meta_score": 0.373,
+      "sample_size": 343
+    },
+    {
+      "name": "Inferno Tower",
+      "usage_rate": 1.98,
+      "win_rate": 54.08,
+      "meta_score": 0.465,
+      "sample_size": 326
+    },
+    {
+      "name": "Evo Wizard",
+      "usage_rate": 1.913,
+      "win_rate": 46.11,
+      "meta_score": 0.316,
+      "sample_size": 315
+    },
+    {
+      "name": "Elixir Collector",
+      "usage_rate": 1.864,
+      "win_rate": 44.19,
+      "meta_score": 0.28,
+      "sample_size": 307
+    },
+    {
+      "name": "Tesla",
+      "usage_rate": 1.767,
+      "win_rate": 47.71,
+      "meta_score": 0.344,
+      "sample_size": 291
+    },
+    {
+      "name": "Hero Wizard",
+      "usage_rate": 1.767,
+      "win_rate": 47.71,
+      "meta_score": 0.344,
+      "sample_size": 291
+    },
+    {
+      "name": "Hero Musketeer",
+      "usage_rate": 1.761,
+      "win_rate": 48.79,
+      "meta_score": 0.364,
+      "sample_size": 290
+    },
+    {
+      "name": "Ice Wizard",
+      "usage_rate": 1.7,
+      "win_rate": 48.75,
+      "meta_score": 0.363,
+      "sample_size": 280
+    },
+    {
+      "name": "Goblin Drill",
+      "usage_rate": 1.682,
+      "win_rate": 47.6,
+      "meta_score": 0.342,
+      "sample_size": 277
+    },
+    {
+      "name": "Phoenix",
+      "usage_rate": 1.658,
+      "win_rate": 48.33,
+      "meta_score": 0.355,
+      "sample_size": 273
+    },
+    {
+      "name": "Barbarians",
+      "usage_rate": 1.646,
+      "win_rate": 51.16,
+      "meta_score": 0.407,
+      "sample_size": 271
+    },
+    {
+      "name": "Evo Bomber",
+      "usage_rate": 1.585,
+      "win_rate": 50.4,
+      "meta_score": 0.393,
+      "sample_size": 261
+    },
+    {
+      "name": "Ice Golem",
+      "usage_rate": 1.549,
+      "win_rate": 44.92,
+      "meta_score": 0.291,
+      "sample_size": 255
+    },
+    {
+      "name": "Skeleton Army",
+      "usage_rate": 1.536,
+      "win_rate": 45.99,
+      "meta_score": 0.31,
+      "sample_size": 253
+    },
+    {
+      "name": "Electro Giant",
+      "usage_rate": 1.518,
+      "win_rate": 51.68,
+      "meta_score": 0.416,
+      "sample_size": 250
+    },
+    {
+      "name": "Rune Giant",
+      "usage_rate": 1.415,
+      "win_rate": 54.96,
+      "meta_score": 0.476,
+      "sample_size": 233
+    },
+    {
+      "name": "Void",
+      "usage_rate": 1.409,
+      "win_rate": 44.27,
+      "meta_score": 0.277,
+      "sample_size": 232
+    },
+    {
+      "name": "Evo Hunter",
+      "usage_rate": 1.379,
+      "win_rate": 45.53,
+      "meta_score": 0.3,
+      "sample_size": 227
+    },
+    {
+      "name": "Baby Dragon",
+      "usage_rate": 1.324,
+      "win_rate": 53.85,
+      "meta_score": 0.455,
+      "sample_size": 218
+    },
+    {
+      "name": "Evo Royal Recruits",
+      "usage_rate": 1.257,
+      "win_rate": 50.17,
+      "meta_score": 0.386,
+      "sample_size": 207
+    },
+    {
+      "name": "Evo Goblin Giant",
+      "usage_rate": 1.148,
+      "win_rate": 46.11,
+      "meta_score": 0.309,
+      "sample_size": 189
+    },
+    {
+      "name": "Lumberjack",
+      "usage_rate": 1.038,
+      "win_rate": 40.38,
+      "meta_score": 0.202,
+      "sample_size": 171
+    },
+    {
+      "name": "Royal Hogs",
+      "usage_rate": 1.032,
+      "win_rate": 51.24,
+      "meta_score": 0.403,
+      "sample_size": 170
+    },
+    {
+      "name": "Goblin Cage",
+      "usage_rate": 1.02,
+      "win_rate": 50.83,
+      "meta_score": 0.396,
+      "sample_size": 168
+    },
+    {
+      "name": "Boss Bandit",
+      "usage_rate": 0.893,
+      "win_rate": 39.29,
+      "meta_score": 0.143,
+      "sample_size": 147
+    },
+    {
+      "name": "Inferno Dragon",
+      "usage_rate": 0.875,
+      "win_rate": 50.97,
+      "meta_score": 0.397,
+      "sample_size": 144
+    },
+    {
+      "name": "Flying Machine",
+      "usage_rate": 0.85,
+      "win_rate": 54,
+      "meta_score": 0.453,
+      "sample_size": 140
+    },
+    {
+      "name": "Spear Goblins",
+      "usage_rate": 0.808,
+      "win_rate": 51.84,
+      "meta_score": 0.413,
+      "sample_size": 133
+    },
+    {
+      "name": "Goblin Curse",
+      "usage_rate": 0.808,
+      "win_rate": 49.21,
+      "meta_score": 0.364,
+      "sample_size": 133
+    },
+    {
+      "name": "Royal Recruits",
+      "usage_rate": 0.796,
+      "win_rate": 44.39,
+      "meta_score": 0.274,
+      "sample_size": 131
+    },
+    {
+      "name": "Mega Minion",
+      "usage_rate": 0.723,
+      "win_rate": 49.71,
+      "meta_score": 0.372,
+      "sample_size": 119
+    },
+    {
+      "name": "Mirror",
+      "usage_rate": 0.656,
+      "win_rate": 37.69,
+      "meta_score": 0.115,
+      "sample_size": 108
+    },
+    {
+      "name": "Wall Breakers",
+      "usage_rate": 0.613,
+      "win_rate": 48.27,
+      "meta_score": 0.345,
+      "sample_size": 101
+    },
+    {
+      "name": "Goblinstein",
+      "usage_rate": 0.613,
+      "win_rate": 46.19,
+      "meta_score": 0.306,
+      "sample_size": 101
+    },
+    {
+      "name": "Skeleton Dragons",
+      "usage_rate": 0.583,
+      "win_rate": 42.71,
+      "meta_score": 0.241,
+      "sample_size": 96
+    },
+    {
+      "name": "Evo Ice Spirit",
+      "usage_rate": 0.54,
+      "win_rate": 43.31,
+      "meta_score": 0.252,
+      "sample_size": 89
+    },
+    {
+      "name": "Evo P.E.K.K.A",
+      "usage_rate": 0.522,
+      "win_rate": 45.12,
+      "meta_score": 0.285,
+      "sample_size": 86
+    },
+    {
+      "name": "Royal Ghost",
+      "usage_rate": 0.516,
+      "win_rate": 47.12,
+      "meta_score": 0.322,
+      "sample_size": 85
+    },
+    {
+      "name": "Royal Giant",
+      "usage_rate": 0.498,
+      "win_rate": 50,
+      "meta_score": 0.376,
+      "sample_size": 82
+    },
+    {
+      "name": "Mega Knight",
+      "usage_rate": 0.48,
+      "win_rate": 47.78,
+      "meta_score": 0.334,
+      "sample_size": 79
+    },
+    {
+      "name": "Goblin Barrel",
+      "usage_rate": 0.474,
+      "win_rate": 35,
+      "meta_score": 0.073,
+      "sample_size": 78
+    },
+    {
+      "name": "Firecracker",
+      "usage_rate": 0.462,
+      "win_rate": 38.95,
+      "meta_score": 0.134,
+      "sample_size": 76
+    },
+    {
+      "name": "Executioner",
+      "usage_rate": 0.431,
+      "win_rate": 39.65,
+      "meta_score": 0.146,
+      "sample_size": 71
+    },
+    {
+      "name": "Giant",
+      "usage_rate": 0.334,
+      "win_rate": 35,
+      "meta_score": 0.072,
+      "sample_size": 55
+    },
+    {
+      "name": "Clone",
+      "usage_rate": 0.304,
+      "win_rate": 35,
+      "meta_score": 0.072,
+      "sample_size": 50
+    },
+    {
+      "name": "Skeleton Barrel",
+      "usage_rate": 0.231,
+      "win_rate": 40.79,
+      "meta_score": 0.179,
+      "sample_size": 38
+    },
+    {
+      "name": "Three Musketeers",
+      "usage_rate": 0.225,
+      "win_rate": 35,
+      "meta_score": 0.062,
+      "sample_size": 37
+    },
+    {
+      "name": "Battle Ram",
+      "usage_rate": 0.2,
+      "win_rate": 35,
+      "meta_score": 0.059,
+      "sample_size": 33
+    },
+    {
+      "name": "Evo Dart Goblin",
+      "usage_rate": 0.2,
+      "win_rate": 36.21,
+      "meta_score": 0.074,
+      "sample_size": 33
+    },
+    {
+      "name": "Magic Archer",
+      "usage_rate": 0.194,
+      "win_rate": 35,
+      "meta_score": 0.058,
+      "sample_size": 32
+    },
+    {
+      "name": "Witch",
+      "usage_rate": 0.188,
+      "win_rate": 35,
+      "meta_score": 0.058,
+      "sample_size": 31
+    },
+    {
+      "name": "Wizard",
+      "usage_rate": 0.164,
+      "win_rate": 36.5,
+      "meta_score": 0.072,
+      "sample_size": 27
+    },
+    {
+      "name": "Archers",
+      "usage_rate": 0.134,
+      "win_rate": 39,
+      "meta_score": 0.096,
+      "sample_size": 22
+    },
+    {
+      "name": "Mortar",
+      "usage_rate": 0.103,
+      "win_rate": 46.5,
+      "meta_score": 0.207,
+      "sample_size": 17
+    },
+    {
+      "name": "Electro Dragon",
+      "usage_rate": 0.049,
+      "win_rate": 46,
+      "meta_score": 0.173,
+      "sample_size": 8
+    },
+    {
+      "name": "Goblin Giant",
+      "usage_rate": 0.036,
+      "win_rate": 50,
+      "meta_score": 0.208,
+      "sample_size": 6
+    },
+    {
+      "name": "Little Prince",
+      "usage_rate": 0.03,
+      "win_rate": 47.5,
+      "meta_score": 0.179,
+      "sample_size": 5
+    },
+    {
+      "name": "Goblin Machine",
+      "usage_rate": 0.024,
+      "win_rate": 50,
+      "meta_score": 0.201,
+      "sample_size": 4
+    },
+    {
+      "name": "Barbarian Hut",
+      "usage_rate": 0,
+      "win_rate": 0,
+      "meta_score": 0,
+      "sample_size": 0
+    },
+    {
+      "name": "Evo Minion Horde",
+      "usage_rate": 0,
+      "win_rate": 0,
+      "meta_score": 0,
+      "sample_size": 0
+    },
+    {
+      "name": "Hero Balloon",
+      "usage_rate": 0,
+      "win_rate": 0,
+      "meta_score": 0,
+      "sample_size": 0
+    },
+    {
+      "name": "Tower Princess",
+      "usage_rate": 80,
+      "win_rate": 50.11
+    },
+    {
+      "name": "Dagger Duchess",
+      "usage_rate": 7.736,
+      "win_rate": 49.85
+    },
+    {
+      "name": "Royal Chef",
+      "usage_rate": 2.991,
+      "win_rate": 46.95
+    },
+    {
+      "name": "Cannoneer",
+      "usage_rate": 1.359,
+      "win_rate": 43.02
+    }
+  ]
+}
