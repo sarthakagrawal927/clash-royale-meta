@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#131313",
+                        "on-tertiary-container": "#8d2fbd",
+                        "on-tertiary": "#510074",
+                        "on-primary-container": "#705e00",
+                        "on-tertiary-fixed-variant": "#7201a2",
+                        "on-secondary": "#23333a",
+                        "tertiary-container": "#f2cdff",
+                        "surface-container-highest": "#353534",
+                        "secondary-fixed": "#d4e5ef",
+                        "outline-variant": "#4d4732",
+                        "on-tertiary-fixed": "#310048",
+                        "on-surface-variant": "#d0c6ab",
+                        "surface-container-low": "#1c1b1b",
+                        "outline": "#999077",
+                        "on-primary-fixed": "#221b00",
+                        "surface": "#131313",
+                        "on-error": "#690005",
+                        "primary": "#fff6df",
+                        "primary-container": "#ffd700",
+                        "background": "#131313",
+                        "error": "#ffb4ab",
+                        "secondary-fixed-dim": "#b8c9d3",
+                        "tertiary-fixed-dim": "#e8b3ff",
+                        "surface-tint": "#e9c400",
+                        "on-surface": "#e5e2e1",
+                        "on-secondary-fixed": "#0d1e25",
+                        "surface-container-lowest": "#0e0e0e",
+                        "on-error-container": "#ffdad6",
+                        "on-primary": "#3a3000",
+                        "surface-container-high": "#2a2a2a",
+                        "secondary-container": "#3b4b53",
+                        "on-primary-fixed-variant": "#544600",
+                        "error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#394951",
+                        "surface-bright": "#3a3939",
+                        "secondary": "#b8c9d3",
+                        "on-secondary-container": "#aabbc5",
+                        "inverse-on-surface": "#313030",
+                        "primary-fixed-dim": "#e9c400",
+                        "inverse-primary": "#705d00",
+                        "primary-fixed": "#ffe16d",
+                        "inverse-surface": "#e5e2e1",
+                        "surface-container": "#201f1f",
+                        "on-background": "#e5e2e1",
+                        "tertiary": "#fff2fe",
+                        "surface-variant": "#353534",
+                        "tertiary-fixed": "#f6d9ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk"],
+                        "display": ["Space Grotesk"],
+                        "body": ["Work Sans"],
+                        "label": ["Work Sans"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Work Sans', sans-serif;
+            background-color: #131313;
+            color: #e5e2e1;
+        }
+        .headline-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface min-h-screen pb-24">
+<!-- TopAppBar -->
+<header class="bg-[#131313] text-[#FFD700] font-['Space_Grotesk'] font-bold tracking-tighter uppercase docked full-width top-0 z-50 bg-[#1C1B1B] shadow-[0_0_15px_rgba(233,196,0,0.05)] flex justify-between items-center w-full px-6 h-16 sticky">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-2xl">analytics</span>
+<h1 class="text-xl font-black text-[#FFD700] tracking-widest">COMMAND CENTER</h1>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden md:flex gap-6 text-sm">
+<span class="text-[#FFD700] cursor-pointer">META</span>
+<span class="text-[#E9C400]/60 hover:text-[#FFD700] transition-colors cursor-pointer">DECK</span>
+<span class="text-[#E9C400]/60 hover:text-[#FFD700] transition-colors cursor-pointer">CARDS</span>
+<span class="text-[#E9C400]/60 hover:text-[#FFD700] transition-colors cursor-pointer">WAR ROOM</span>
+</div>
+<div class="w-8 h-8 bg-surface-container-high border-l-2 border-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">person</span>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-12 gap-6">
+<!-- Left Column: Deck & Synergy -->
+<div class="lg:col-span-8 space-y-6">
+<!-- Card Breakdown Section -->
+<section class="bg-surface-container-low p-6">
+<div class="flex justify-between items-end mb-6 border-l-4 border-primary-container pl-4">
+<div>
+<h2 class="headline-font text-2xl font-black tracking-tight text-primary">DECK COMPOSITION</h2>
+<p class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Active Battle Deck Analysis</p>
+</div>
+<div class="text-right">
+<div class="headline-font text-3xl font-black text-primary-container">3.1</div>
+<div class="text-[10px] font-bold uppercase text-on-surface-variant tracking-tighter">AVG ELIXIR COST</div>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+<!-- Card 1 -->
+<div class="bg-surface-container-high p-1 group hover:bg-surface-bright transition-colors cursor-pointer">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="vibrant digital illustration of a medieval knight with golden armor and a determined expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDc8DY0jN7guTbkpGJqY6KJLmSkdRO0inHJFIsQRZgp89qv72xbi_u86CVhgfSUUlPlkc0YNXqyP1ygSShvXGYM5CRoN8xZepM28YMi0FoBZtquL60xqLY99doxkA7rl9AxOdB7PpNre3szZtU_jirYD_izbEwM8FXNiYBQnTmp5fUOIHFTsuocTOgmnN4RaeEMjZC3f95gmwB-mA7ClHqHIq9VJo0C6XXOXZ9Rg1REP2nGKiPWpEYfzNuMsFJnd6lxOHSNm9kEhVM"/>
+<div class="absolute top-0 left-0 bg-primary-container text-on-primary font-black px-2 py-0.5 text-xs">LVL 14</div>
+</div>
+<div class="mt-2 px-1">
+<div class="headline-font text-[10px] font-bold text-primary-container uppercase">WIN CONDITION</div>
+<div class="headline-font text-sm font-bold uppercase truncate">HOG RIDER</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-high p-1 group hover:bg-surface-bright transition-colors cursor-pointer">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="dramatic close-up of a sharp medieval longsword stuck in the ground with sparks flying" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNJr9zw_9rgp4FaGU26C8N3OWhuDvQnG4q8950VozeaXz_uF05Iln5eBHcAR3GfZQMpKYzV4UIHjbqlHYX6NDEF0BfUojfB2nkSB2NYXjh-xNI5huLfuFo-9oXGfzmZh_D_xVjOMf_4x_CDigkKosk1RfuP6BnTFlwlpOmPGt449b4sDj4y-be39ZHR0Fd_xTKeV708Ae85GAFUUUmQfhw4F6rVsvSqbkVPUZkwqbtr9fW6RMRgolEVIPtySaZ2lsMU09R7dOzvSM"/>
+<div class="absolute top-0 left-0 bg-primary-container text-on-primary font-black px-2 py-0.5 text-xs">LVL 14</div>
+</div>
+<div class="mt-2 px-1">
+<div class="headline-font text-[10px] font-bold text-on-surface-variant uppercase">MINI TANK</div>
+<div class="headline-font text-sm font-bold uppercase truncate">KNIGHT</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-high p-1 group hover:bg-surface-bright transition-colors cursor-pointer">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="glowing magical blue fireball hovering in a dark forest setting with mystical embers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDF9M147qKFvy4zCNaBF1t7sKPfIZLA76gl47MU9Yz8vfHxDtWSyyPM2AVTvAwY0aE_t4EYb5Ee4nQVchy90t3Ca_hEBqEUlzTxYQPCD84HVYW5CqSSDro5Dv-YBRp6hEZQ5biMVKbQUuADYeNXnatF0DAEtKPf_-LNwGmwXKPQS7TPyp4FndjMtWEZdcKRL4OaBXSUm2bnzTOToF1E2MJgjt0Wazx-XuVRFYZHkI4MTd8TzUvbBiV8tk6oqCUxgOI0t9D1PSd4eqo"/>
+<div class="absolute top-0 left-0 bg-primary-container text-on-primary font-black px-2 py-0.5 text-xs">LVL 13</div>
+</div>
+<div class="mt-2 px-1">
+<div class="headline-font text-[10px] font-bold text-on-surface-variant uppercase">HEAVY SPELL</div>
+<div class="headline-font text-sm font-bold uppercase truncate">FIREBALL</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-high p-1 group hover:bg-surface-bright transition-colors cursor-pointer">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="a stack of large ancient wooden logs rolling down a grassy hill with motion blur" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDx21md4wzk7f9yWBtBxqy-oxgWU6C8YZa2btU7d0pnZ1p21jh4Ga9EWa7JuwvqsYJS68FvLFlaCfFPXvchjugK4GMoud_mF7hKyGOALGA8JE4OkRs-zHOQAl9XHen7MUWrgVbxDmqSLosIhbpLH8KSqUWYOEdUFW3MDBAgHHvPeKP6QYjDz4Dz9FlnzxsQ7Duw_BXK6_yqeiNPN065gYR-s94HHN_uPTEXoHnIas4AYeUv_1DrI8sL53Yd8q_-2tYdv8cdM23f1DE"/>
+<div class="absolute top-0 left-0 bg-primary-container text-on-primary font-black px-2 py-0.5 text-xs">LVL 14</div>
+</div>
+<div class="mt-2 px-1">
+<div class="headline-font text-[10px] font-bold text-on-surface-variant uppercase">LIGHT SPELL</div>
+<div class="headline-font text-sm font-bold uppercase truncate">THE LOG</div>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-high p-1 group hover:bg-surface-bright transition-colors cursor-pointer">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="a dark skeletal figure with glowing eyes wearing heavy iron plate armor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4sedb-KAlP6t0GXviysr2BGBsgNVB7LKWt6V_V7wAl1rwNiZoZk1gOaE61mCRVZ-Gyt8MTNqBOwcuucfYf2BWAwpYzhG5qYRjvh44dwsFqwU3Scc4EuLhI4h-PCqXX4ZfCdPvBjaJ4tqQJcFg9J7zgT6AnQOqlfoeVrJu7dsZ_zROYNaqKA5CGZYQel8lcXP7Ymg3TWxSV3_7zAsRgZVkHV4azHPNVIqi0D0qwb94i6vA08w250UDFFomdrgiNKcK6fqz7cIZPGM"/>
+<div class="absolute top-0 left-0 bg-primary-container text-on-primary font-black px-2 py-0.5 text-xs">LVL 12</div>
+</div>
+<div class="mt-2 px-1">
+<div class="headline-font text-[10px] font-bold text-on-surface-variant uppercase">SWARM</div>
+<div class="headline-font text-sm font-bold uppercase truncate">SKELETONS</div>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-high p-1 group hover:bg-surface-bright transition-colors cursor-pointer">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="a crackling electric blue lightning bolt striking a metal rod in a high tech lab" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBx6cTriYP3heU_XsSh52g43W2_ZJHF6lDuZgYOwkAcFFn2XpFSklVR3IH0EWco0ievseTIJY_JxZQ0mUvoPom1-8epuCudq-t3zkbADudzxGwa0t_GIwn8qVew0fV_2U4uCIwNnnnxHetyo-xGmtk9BLaXpu1ZSzCCFrUro6gVOEbPysdZvCMLjuMqU9duEZ_y8DVU8Tbt-ykw0srdcRzSB6NG6G-ZVIgQ-I2FjJ4H9bECpqcsHAUrQZmFY5GLhxYVSfJMiIInQGY"/>
+<div class="absolute top-0 left-0 bg-primary-container text-on-primary font-black px-2 py-0.5 text-xs">LVL 14</div>
+</div>
+<div class="mt-2 px-1">
+<div class="headline-font text-[10px] font-bold text-on-surface-variant uppercase">STUN</div>
+<div class="headline-font text-sm font-bold uppercase truncate">ELECTRO SPIRIT</div>
+</div>
+</div>
+<!-- Card 7 -->
+<div class="bg-surface-container-high p-1 group hover:bg-surface-bright transition-colors cursor-pointer">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="a large stone Tesla coil tower discharging purple electrical bolts into the night sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCSJ6n80ktiZ_kmruixKLPTx5W2smz_je9onlYPLCmWomYr6QYVy8Z8hTYnolLBc_pGFBVbAl5H2M8RMtCwhQFKSH68C2RVdBHr-9kJAQqzOYyLKJaRUf_K76WEIck-nIypHSF9q2SaaJpobisXUAyF9qbaugkSvT0MBMOAFuqT-7s8g0XlBzwnVwxYvp7o5cEzh400SpBWfJDK2YBGHfUfZZ7SqmGgf8PPgQ8uo1kkwSNyLP3irifFcdd1j9-_u0mFk6pmozWOQk"/>
+<div class="absolute top-0 left-0 bg-primary-container text-on-primary font-black px-2 py-0.5 text-xs">LVL 13</div>
+</div>
+<div class="mt-2 px-1">
+<div class="headline-font text-[10px] font-bold text-on-surface-variant uppercase">DEFENSE</div>
+<div class="headline-font text-sm font-bold uppercase truncate">TESLA</div>
+</div>
+</div>
+<!-- Card 8 -->
+<div class="bg-surface-container-high p-1 group hover:bg-surface-bright transition-colors cursor-pointer">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" data-alt="a female archer with long dark hair pulling back a powerful glowing bow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASAhUuuOfqkr3xMBTlSf_aW9glTSgfMTdw2wFJ2vgDVdMhqMqlsd9BZIU_Wq-zXs4iKxL5hc9geRU6ViBPARt0saHe1l_hjCzeR0WeBfslx_zeZJkvzocpjFzf4aDXZPBIZIdvmEQY2zQGvA1q9B7KxZGh7GkF0-ugeWaCjmZqHc7fJbQ_xaAlActbPoJ2st-ZKmwTpMK6LInsQazKQLarmQuUwuBRL9DTy6YdSI9lICxTYHKiPdQJtFGVuKMa4aZ3U4wmba9hvGA"/>
+<div class="absolute top-0 left-0 bg-primary-container text-on-primary font-black px-2 py-0.5 text-xs">LVL 14</div>
+</div>
+<div class="mt-2 px-1">
+<div class="headline-font text-[10px] font-bold text-on-surface-variant uppercase">RANGED</div>
+<div class="headline-font text-sm font-bold uppercase truncate">ARCHER QUEEN</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row justify-between items-center bg-surface-container-lowest p-4 gap-4">
+<div class="flex gap-8">
+<div>
+<div class="headline-font text-lg font-bold text-primary">8.4s</div>
+<div class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">4-CARD CYCLE</div>
+</div>
+<div>
+<div class="headline-font text-lg font-bold text-primary">OFFENSIVE</div>
+<div class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">PLAYSTYLE</div>
+</div>
+</div>
+<div class="flex gap-2">
+<div class="h-1 w-12 bg-primary-container"></div>
+<div class="h-1 w-12 bg-primary-container"></div>
+<div class="h-1 w-12 bg-primary-container"></div>
+<div class="h-1 w-12 bg-surface-container-highest"></div>
+<div class="h-1 w-12 bg-surface-container-highest"></div>
+</div>
+</div>
+</section>
+<!-- Win Condition Synergy Section -->
+<section class="bg-surface-container-low p-6">
+<h2 class="headline-font text-xl font-black mb-6 tracking-tight flex items-center gap-2">
+<span class="w-1.5 h-6 bg-primary-container"></span>
+                    WIN CONDITION SYNERGY
+                </h2>
+<div class="relative h-64 bg-surface-container-lowest flex items-center justify-center p-4">
+<!-- Central Win Con -->
+<div class="z-10 bg-surface-container-high p-4 border border-primary-container/30 text-center">
+<div class="headline-font text-sm font-black text-primary-container uppercase">CORE UNIT</div>
+<div class="headline-font text-xl font-black text-primary uppercase">HOG RIDER</div>
+</div>
+<!-- Synergy Lines (SVG for Tactical Feel) -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none opacity-20">
+<line stroke="#FFD700" stroke-width="1" x1="50%" x2="20%" y1="50%" y2="20%"></line>
+<line stroke="#FFD700" stroke-width="1" x1="50%" x2="80%" y1="50%" y2="20%"></line>
+<line stroke="#FFD700" stroke-width="1" x1="50%" x2="20%" y1="50%" y2="80%"></line>
+<line stroke="#FFD700" stroke-width="1" x1="50%" x2="80%" y1="50%" y2="80%"></line>
+</svg>
+<!-- Synergy Nodes -->
+<div class="absolute top-8 left-12 bg-surface-container-high p-2 text-[10px] font-bold border-l-2 border-primary">
+<div class="text-on-surface-variant uppercase">PROTECTION</div>
+<div class="text-primary uppercase">KNIGHT</div>
+</div>
+<div class="absolute top-8 right-12 bg-surface-container-high p-2 text-[10px] font-bold border-l-2 border-primary">
+<div class="text-on-surface-variant uppercase">SUPPORT</div>
+<div class="text-primary uppercase">ARCHER QUEEN</div>
+</div>
+<div class="absolute bottom-8 left-12 bg-surface-container-high p-2 text-[10px] font-bold border-l-2 border-primary">
+<div class="text-on-surface-variant uppercase">PREDICTION</div>
+<div class="text-primary uppercase">FIREBALL</div>
+</div>
+<div class="absolute bottom-8 right-12 bg-surface-container-high p-2 text-[10px] font-bold border-l-2 border-primary">
+<div class="text-on-surface-variant uppercase">SWARM CLEAR</div>
+<div class="text-primary uppercase">THE LOG</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Matchups & Intel -->
+<div class="lg:col-span-4 space-y-6">
+<!-- Matchup Matrix -->
+<section class="bg-surface-container-low p-6">
+<h2 class="headline-font text-xl font-black mb-6 tracking-tight flex items-center gap-2">
+<span class="w-1.5 h-6 bg-primary-container"></span>
+                    MATCHUP MATRIX
+                </h2>
+<div class="space-y-3">
+<div class="flex justify-between items-center p-3 bg-surface-container-lowest border-l-4 border-error">
+<span class="headline-font font-bold text-sm tracking-widest uppercase">Beatdown</span>
+<div class="text-right">
+<span class="headline-font text-lg font-black text-error">45%</span>
+<div class="text-[8px] font-bold text-on-surface-variant uppercase">WIN RATE</div>
+</div>
+</div>
+<div class="flex justify-between items-center p-3 bg-surface-container-lowest border-l-4 border-primary-container">
+<span class="headline-font font-bold text-sm tracking-widest uppercase">Cycle</span>
+<div class="text-right">
+<span class="headline-font text-lg font-black text-primary-container">62%</span>
+<div class="text-[8px] font-bold text-on-surface-variant uppercase">WIN RATE</div>
+</div>
+</div>
+<div class="flex justify-between items-center p-3 bg-surface-container-lowest border-l-4 border-primary-container">
+<span class="headline-font font-bold text-sm tracking-widest uppercase">Siege</span>
+<div class="text-right">
+<span class="headline-font text-lg font-black text-primary-container">58%</span>
+<div class="text-[8px] font-bold text-on-surface-variant uppercase">WIN RATE</div>
+</div>
+</div>
+</div>
+<div class="mt-6 p-4 bg-surface-container-high text-[10px] font-bold text-on-surface-variant leading-relaxed">
+                    MATCHUP SUMMARY: VULNERABLE TO HEAVY TANKS. DOMINANT IN QUICK-CYCLE TRADES.
+                </div>
+</section>
+<!-- Counter-Strategy Section -->
+<section class="bg-surface-container-low p-6">
+<h2 class="headline-font text-xl font-black mb-6 tracking-tight flex items-center gap-2">
+<span class="w-1.5 h-6 bg-primary-container"></span>
+                    TACTICAL INTEL
+                </h2>
+<div class="space-y-4">
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary-container mt-1">priority_high</span>
+<div>
+<div class="headline-font text-xs font-black text-primary uppercase">Weakness</div>
+<p class="text-sm text-on-surface-variant">High-density swarms. Avoid stacking units against splash damage.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary-container mt-1">target</span>
+<div>
+<div class="headline-font text-xs font-black text-primary uppercase">Counter-Play</div>
+<p class="text-sm text-on-surface-variant">Rotate Log early. Predict Goblin Gang/Barrel drops.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary-container mt-1">shield</span>
+<div>
+<div class="headline-font text-xs font-black text-primary uppercase">Priority</div>
+<p class="text-sm text-on-surface-variant">Protect the Knight. He is your primary anchor for defense.</p>
+</div>
+</div>
+</div>
+<button class="w-full mt-8 bg-primary-container text-on-primary font-black py-4 headline-font text-sm tracking-widest uppercase hover:brightness-110 active:scale-[0.98] transition-all">
+                    LAUNCH SIMULATION
+                </button>
+</section>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-[#131313] text-[#FFD700] fixed bottom-0 w-full z-50 h-20 bg-[#1C1B1B] flex justify-around items-center w-full">
+<a class="flex flex-col items-center justify-center text-[#E9C400]/50 h-full w-full hover:bg-[#2A2A2A] transition-all active:brightness-125" href="#">
+<span class="material-symbols-outlined" data-icon="query_stats">query_stats</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-bold uppercase tracking-widest mt-1">META</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-[#FFD700] text-[#131313] h-full w-full hover:bg-[#2A2A2A] transition-all active:brightness-125" href="#">
+<span class="material-symbols-outlined" data-icon="Layers">layers</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-bold uppercase tracking-widest mt-1">DECK</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#E9C400]/50 h-full w-full hover:bg-[#2A2A2A] transition-all active:brightness-125" href="#">
+<span class="material-symbols-outlined" data-icon="style">style</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-bold uppercase tracking-widest mt-1">CARDS</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#E9C400]/50 h-full w-full hover:bg-[#2A2A2A] transition-all active:brightness-125" href="#">
+<span class="material-symbols-outlined" data-icon="military_tech">military_tech</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-bold uppercase tracking-widest mt-1">WAR ROOM</span>
+</a>
+</nav>
+</body></html>
