@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useEffect, useMemo, useState } from "react"
 import {
   LineChart,
   Line,
@@ -22,17 +22,24 @@ const RANGES = [
 
 export default function CardTimelineChart({ cardName }: { cardName: string }) {
   const [range, setRange] = useState("7d")
-  const [data, setData] = useState<TimelinePoint[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState("")
+  const slug = useMemo(
+    () =>
+      cardName
+        .toLowerCase()
+        .replace(/\s+/g, "-")
+        .replace(/\./g, ""),
+    [cardName]
+  )
+  const requestKey = `${slug}:${range}`
+  const [result, setResult] = useState<{
+    data: TimelinePoint[]
+    error: string
+    key: string
+  }>({ data: [], error: "", key: "" })
 
   useEffect(() => {
-    setLoading(true)
-    setError("")
-    const slug = cardName
-      .toLowerCase()
-      .replace(/\s+/g, "-")
-      .replace(/\./g, "")
+    let active = true
+
     fetch(
       `https://www.sleepyclash.com/api/v1/card/${slug}/timeline?range=${range}`
     )
@@ -40,10 +47,29 @@ export default function CardTimelineChart({ cardName }: { cardName: string }) {
         if (!r.ok) throw new Error("Not found")
         return r.json()
       })
-      .then((d) => setData(d.data || []))
-      .catch(() => setError("No timeline data available"))
-      .finally(() => setLoading(false))
-  }, [cardName, range])
+      .then((d) => {
+        if (active) {
+          setResult({ data: d.data || [], error: "", key: requestKey })
+        }
+      })
+      .catch(() => {
+        if (active) {
+          setResult({
+            data: [],
+            error: "No timeline data available",
+            key: requestKey,
+          })
+        }
+      })
+
+    return () => {
+      active = false
+    }
+  }, [range, requestKey, slug])
+
+  const loading = result.key !== requestKey
+  const data = loading ? [] : result.data
+  const error = loading ? "" : result.error
 
   const chartData = data.map((p) => ({
     time: new Date(p.timestamp).toLocaleDateString("en-US", {

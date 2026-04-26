@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useState } from "react"
 import {
   LineChart,
   Line,
@@ -34,19 +34,17 @@ export default function HistoryChart({
 
   const allCardNames = Object.keys(topCardsHistory)
 
-  const chartData = useMemo(() => {
-    return availableDates.map((date) => {
-      const point: Record<string, string | number> = { date }
-      for (const name of selectedCards) {
-        const history = topCardsHistory[name]
-        const match = history?.find((h) => h.date === date)
-        if (match) {
-          point[name] = match[metric]
-        }
+  const chartData = availableDates.map((date) => {
+    const point: Record<string, string | number> = { date }
+    for (const name of selectedCards) {
+      const history = topCardsHistory[name]
+      const match = history?.find((h) => h.date === date)
+      if (match) {
+        point[name] = match[metric]
       }
-      return point
-    })
-  }, [availableDates, selectedCards, metric, topCardsHistory])
+    }
+    return point
+  })
 
   function toggleCard(name: string) {
     setSelectedCards((prev) =>
